@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+button {
+  font-weight: 500;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 0;
+  border-radius: 1rem;
+}
+
+input[type="file"] {
+  cursor: pointer;
+}
+
+/* Add to your styles.css */
+.message-bubble {
+  border-radius: 18px;
+  padding: 8px 16px;
+  margin-bottom: 4px;
+  word-break: break-word;
+}
+
+.user-message {
+  background-color: #27caf3;
+  color: white;
+  margin-left: auto;
+}
+
+.other-message {
+  background-color: #3fe049;
+  margin-right: auto;
+}
